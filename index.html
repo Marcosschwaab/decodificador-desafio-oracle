@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/bash.css">
+    <script src = "src/scripts/script.js" defer></script>
+    <title>Decodificador</title>
+</head>
+<body>
+    <div class="content">
+
+
+            <div class="terminal">
+              <pre><p>root</p><span>&nbsp;</span></pre>
+              <pre><p>password: ********* </p></pre>
+              <pre><p>authorized access !! </p></pre>
+ 
+            </div>
+        
+
+
+        <div class="panel">
+            <p id="errorMessage"></p>
+            <textarea id="inputText" placeholder="Digite seu texto aqui"></textarea>
+            <div id="buttonContainer">
+                <button id="encryptButton">Encriptar</button>
+                <button id="decryptButton">Desencriptar</button>
+            </div>
+        </div>
+        
+        <div class="panel">
+            <textarea id="outputText" placeholder="Seu texto encriptado/desencriptografado aparecerá aqui" readonly></textarea>
+            <div id="buttonContainer">
+                <button id="copyButton">Copiar</button></div>
+            </div>
+    </div>
+</body>
+</html>
