@@ -11,6 +11,5 @@
 - JavaScript
 
 ## 💻 Projeto
-Disponível em: 🔗[Decodificador, clique aqui!](https://decodificador/)
-
+Preview do projeto: 🔗[Acesse clicando aqui!](https://decodificador-desafio-oracle.vercel.app)
 
